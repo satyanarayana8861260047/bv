@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object</title>
+</head>
+<body>
+    <div>
+        <button id="domain name" onclick="getDomain()">domain name</button><br><br>
+        <button id="title" onclick="getTitle()">title</button><br><br>
+        <button id="url" onclick="geturl()">url</button><br><br>
+        <a href="http://www.google.com">home</a>
+        <a href="#">about</a>
+        <a href="#">contact</a> <br><br>
+        <button id="anchor" onclick="anchorTag()">anchortag</button><br>
+
+        <a name="Tutor">Tutorix</a><br>
+        <a name="Tutorial">Tutorialspoint</a><br>
+        <button id="what" onclick="firstAnchor()">first anchor</button><br>
+        <button id="pcount" onclick="getCountName()">count p</button><br>
+
+        <p id="mypara">haiiii</p>
+        <p>hai</p>
+
+        <button id="tag" onclick="countpara()">count paragraph</button><br>
+        <button id="link" onclick="getCountlink()">count click</button><br><br>
+        <button id="links" onclick="getlink()">get link</button><br>
+
+        <img src="https://thumbs.dreamstime.com/b/frangipani-flowers-10997030.jpg" alt="flower" width="152" height="180">
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-red-rose-royalty-free-image-672727875-1546363000.jpg?crop=0.384xw:0.719xh;0.306xw,0.242xh&resize=480:*" width="152" height="180">
+        <img src="https://i.pinimg.com/736x/a8/ba/f4/a8baf4b438b17e9cbf93101be13d56f8.jpg" alt="flower" width="152" height="180">
+        <button id="img" onclick="getImages()">images num</button><br><br>
+        <button id="idimg" onclick="getid()">id of imag</button><br>
+
+        <form>
+            <input type="text" name="name">enter number
+        </form>
+        <form></form><br>
+        <button id="form" onclick="getForm()">get form</button><br>
+        <button id="num" onclick="getnameofform()">get name of form</button>
+        <br>
+ </div>
+
+        <script>
+            function getDomain(){
+                document.getElementById('domain name').innerHTML=document.domain;
+            }
+            function getTitle(){
+                document.getElementById('title').innerHTML=document.title;
+            }
+            function geturl(){
+                document.getElementById('url').innerHTML=document.URL;
+            }
+            function anchorTag(){
+                document.getElementById('anchor').innerHTML=document.anchors.length;
+            }
+            function firstanchor(){
+                document.getElementById('what').innerHTML=document.anchor[0].innerHTML;
+            }
+            function getCountname(){
+                let paragraph = document.getElementByTagName("p");
+                document.getElementById('pcount').innerHTML=paragraph[0].innerHTML;
+            }
+            function getCountLink(){
+                let numb = document.links.length;
+                document.getElementById('link').innerHTML= numb;
+            }
+            function getLink(){
+                let url = document.links[0].href;
+                document.getElementById('links').innerHTML= url;
+            }
+            function getIamges(){
+                let imag = document.imags.length;
+                document.getElementById('img').innerHTML= image;
+            }
+            function getId(){
+                let id=document.image[0].id;
+                document.getElementById('idimg').innerHTML=id;
+            }
+            function getFom(){
+                let num1 = document.form.length;
+                document.getElementById('Form').innerHTML= num1;
+            }
+            function getnameofform(){
+                let name = document.forms[0].name;
+                document.getElementById('num').innerHTML= name;
+            }
+            function countpara(){
+                let totalpara = document.getElementByTagName("p");
+                document.getElementById('tag').innerHTML= totalpara.length;
+            }
+
+</script>
+</body>
+</html>

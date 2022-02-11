@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+header{
+    background: blue;
+    height: 82px;
+    border: 1px solid blue;
+}
+.header-block{
+    width: 992px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo{
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.facebook-login{
+    width: 50%;
+    float: left;
+}
+.header-block label{
+    color: white;
+}
+.email{
+    float: left;
+}
+.email label{
+    padding-bottom: 10px;
+}
+
+.password{
+    float: left;
+    margin-left: 15px;
+}
+
+.password label{
+    padding-bottom:10px ;
+}
+.login-button {
+    float:right;
+}
+.clearfix{
+    clear: both;
+}
+.content-block{
+    width: 992px;
+    margin: 0 auto;
+}
+.facebook-connect{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.facebook-connect p{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.facebook-connect img{
+    margin-top: 10px;
+}
+.create-account{
+    float: right;
+    width: 50%;
+}
+.Account{
+    padding: 10px;
+    
+}

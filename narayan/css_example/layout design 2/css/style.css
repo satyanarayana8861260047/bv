@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+}
+main{
+    width: 90%;
+    margin: 0px auto;
+    background-color: white;
+}
+header{
+    border-bottom: 1px solid gray;
+
+}
+
+header .logo{
+    float: left;
+    padding:20px 40px ;  
+    color: cornflowerblue;
+}
+header nav{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+nav ul{
+    padding: 30px 40px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: cornflowerblue;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.asia,
+.europe{
+    padding: 20px 30px
+
+}
+
+.europe img {
+    float: left;
+    width: 600px;
+}
+.europe div{
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 120px;
+    float: left;
+    width: 350px;
+    padding: 20px;
+
+}
+.europe div a{
+    display: inline-block;
+    padding: 10px;
+    background-color: cornsilk;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.asia img{
+    float: right;
+    width: 600px;
+}
+.asia div a{
+    display: inline-block;
+    padding: 10px;
+    background-color: cornsilk;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.asia div{
+    background-color: pink;
+    color: white;
+    margin-top: 120px;
+    float: left;
+    width: 350px;
+    padding: 20px;
+
+}.america img{
+    float: right;
+    width: 600px;
+}
+.america div a{
+    display: inline-block;
+    padding: 10px;
+    background-color: cornsilk;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.america div{
+    background-color: green;
+    color: white;
+    margin-top: 120px;
+    float: left;
+    width: 350px;
+    padding: 20px;
+
+}
+
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+.logo2{
+    color: white;
+    font-size: 50px;
+    float: left;
+    padding: 20px 80px;
+}
+footer div{
+    float: right;
+    color: white;
+    padding: 20px 30px;
+}
+footer div ul li{
+    list-style: none;
+}
+footer div ul li a{
+    text-decoration: none;
+}
+footer div ul li a:hover{
+    color: red;
+}
+
+
+
+
+
+
