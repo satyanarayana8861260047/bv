@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin:10px 40px;
+}
+nav ul{
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+nav ul li a:hover{
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+.menu1{
+    margin-top:10px;
+}
+.menu1 ul{
+    background-color: orange;
+}
+.menu1 ul li{
+    list-style:none;
+    display:inline-block;
+}
+.menu1 ul li{
+    text-decoration: none;
+    padding:10px;  
+    color: black;
+}
+.menu1 ul li a:hover{
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+.menu2{
+    margin-top: 10px;
+}
+.menu2 ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu2 ul li{
+    text-decoration: none;
+    padding :10px;
+    color:black;
+}
+.menu2 ul li a:hover{
+    background-color: red;
+    border-radius: 0px 10px 10px 0px;
+}
+.menu2 ul{
+    background-color: chartreuse;
+}
+.menu3 {
+    margin-top: 10px;
+    padding:10px;
+}
+.menu3 ul li a{
+    text-decoration: none;
+    
+}
+.menu3 ul li{
+    list-style: none;
+    display: inline;
+    padding :10px;
+}
+.menu3 ul li a:hover{
+    color: red;
+    border-radius: 2px;
+}
+
+
+
+
